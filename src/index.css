@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Outfit-Variable";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: "Outfit-Variable", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+  background-color: hsl(30, 54%, 90%);
+}
+
+/* Improve media defaults */
+img {
+  display: block;
+  max-width: 100%;
+}

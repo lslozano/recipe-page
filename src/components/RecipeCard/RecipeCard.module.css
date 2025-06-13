@@ -1,0 +1,19 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  max-width: 720px;
+  padding: 28px;
+  gap: 32px;
+  font-family: "Outfit-Variable", sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+@media (min-width: 730px) {
+  .cardWrapper {
+    padding: 36px;
+    border-radius: 18px;
+  }
+}

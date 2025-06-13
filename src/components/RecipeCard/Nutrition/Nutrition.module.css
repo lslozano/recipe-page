@@ -1,0 +1,63 @@
+.nutritionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.nutritionWrapper h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "YoungSerif-Regular", sans-serif;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutritionWrapper table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutritionWrapper th,
+.nutritionWrapper td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 1rem 0;
+}
+
+.nutritionWrapper th {
+  font-weight: 400;
+}
+
+.nutritionWrapper td {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutritionWrapper tr:first-child > th,
+.nutritionWrapper tr:first-child > td {
+  padding-block-start: 0;
+}
+
+.nutritionWrapper tr:last-child > th,
+.nutritionWrapper tr:last-child > td {
+  border-bottom: none;
+}
+
+.nutritionWrapper th {
+  text-align: left;
+  padding-inline-start: 2.3rem;
+}
+
+.nutritionWrapper td {
+  text-align: left;
+  padding-inline-start: 1rem;
+}
+
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0); /* Legacy property for Internet Explorer */
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

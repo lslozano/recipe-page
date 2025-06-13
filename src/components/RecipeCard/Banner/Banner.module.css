@@ -1,0 +1,12 @@
+.bannerWrapper {
+  margin-block-start: -28px;
+  margin-inline: -28px;
+}
+
+@media (min-width: 730px) {
+  .bannerWrapper {
+    border-radius: 12px;
+    margin: 0;
+    overflow: hidden;
+  }
+}
