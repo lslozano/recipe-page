@@ -62,6 +62,7 @@ Build out the recipe page and get it looking as close to the design as possible,
 - Worked on achieving pixel-perfect implementation based on a design reference, while ensuring semantic HTML structure for better accessibility and maintainability.
 - Learned how to customize list styles using CSS, including positioning and styling bullet points with precision.
 - Continued improving my attention to detail, both visually and in terms of code structure and organization.
+- Deploy a Vite project to github pages.
 
 ### Useful resources
 
