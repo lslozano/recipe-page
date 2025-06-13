@@ -27,8 +27,8 @@ Build out the recipe page and get it looking as close to the design as possible,
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [Solution Repository](https://github.com/lslozano/recipe-page)
+- Live Site URL: [Solution Deployed](https://lslozano.github.io/recipe-page/)
 
 ## My process
 
